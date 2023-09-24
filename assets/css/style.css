@@ -1,0 +1,52 @@
+/* Estilos generales */
+
+body    {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 0;
+}   

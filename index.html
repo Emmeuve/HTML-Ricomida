@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+    <link href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
         rel="stylesheet">
 </head>
 
@@ -66,7 +67,13 @@
                 <h1 class="display-6">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
                 <hr>
                 <p class="lead">110 MIN / 6 A 8 PORCIONES</p>
-                <p class="lead">Enviar por correo / Añadir a favoritos</p>
+                <input type="button" class="btn btn-light" value="Enviar por correo"
+                data-bs-toggle="tooltip" 
+                data-bs-placement="bottom" title="Presiona para enviar a tu correo" id="btnenviar">
+                <input type="button" class="btn btn-light" value="Añadir a Favoritos"
+                data-bs-toggle="tooltip" 
+                data-bs-placement="right" 
+                title="Agrega esta receta a tus favoritos" id="btnfavoritos">
             </div>
         </div>
         <!-- Section -->

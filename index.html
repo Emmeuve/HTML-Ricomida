@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricomida</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -18,9 +17,7 @@
 </head>
 
 <body>
-
     <!--navbar-->
-
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -49,21 +46,18 @@
                 </div>
             </div>
         </nav>
-
     </div>
-
-    <!-- Section -->
     <hr>
-
+    <!-- Section -->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <img src="assets/img/Pizza_header.jpeg">
                 <style>
                     img {
-                        width: 250px;
+                        width: 350px;
                         height: auto;
-                        align-content: right;
+                        align-content: cen;
                     }
                 </style>
             </div><br>
@@ -75,187 +69,256 @@
                 <p class="lead">Enviar por correo / Añadir a favoritos</p>
             </div>
         </div>
+        <!-- Section -->
+        <!-- carousel de imagenes -->
+        <div class="container_carousel">
+            <div class="abs-center">
+                <div class="carousel slide" data-bs-ride="carousel" id="carouselExample">
+                    <style>
+                        .carousel-inner {
+                            margin-top: 50px;
+                            margin-left: 100px;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        
+                        .carousel-inner img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carrousel_1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_3.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_4.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_5.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_6.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_7.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="assets/img/carousel_8.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Boton Carousel-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <!-- Boton Carousel-->
+                </div>
+            </div>
+        </div>
+    </div>
     </div><br>
     <br>
-
     <!-- Section -->
-
-    <div>
-        <div class="container">
-            <div class="row">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="col-md-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carrousel_img_1.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carrousel_img_3.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carrousel_img_4.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carrousel_img_5.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carrousel_img_6.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    <hr>
-    <!-- Section -->
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <u>INGREDIENTES</u>
-                    <p class="text-left">Masa<br>
-                        <br>
-                        20 gr de levadura seca instantánea<br>
-                        1 cucharadita de azúcar<br>
-                        500 ml agua tibia<br>
-                        100 ml aceite vegetal<br>
-                        4 cucharadas de aceite de oliva<br>
-                        65 gr harina de maíz fina (chuchoca)<br>
-                        2 cucharaditas de sal<br>
-                        625 gr harina <br>
-                        <br>
-                        Salsa <br>
-                        <br>
-                        5 cucharadas de aceite de oliva<br>
-                        ½ cebolla picada en cubos finos<br>
-                        2 cucharaditas de sal<br>
-                        3 cucharadas de Orégano Gourmet<br>
-                        1 ½ cucharadas de Albahaca Gourmet<br>
-                        2 tarro de tomates en cubos al natural<br>
-                        2 cucharaditas de azúcar<br>
-                        <br>
-                        Relleno<br>
-                        <br>
-                        ½ cebolla, en cubos<br>
-                    </p>
-                </div>
-
-
-                <div class="col-md-4">
-                    <u>PREPARACIÓN</u>
-                    <p class="text-left">
-                        1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande.
-                        Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina.
-                        Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una
-                        masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y
-                        elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se
-                        pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar
-                        reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y
-                        luego dejar leudar por 40 minutos adicionales.<br>
-                        <br>
-                        2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a
-                        fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar
-                        hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar
-                        los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar
-                        hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y
-                        pimienta a gusto. Reservar.<br>
-                        <br>
-                        3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes.
-                        Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya
-                        evaporado todo el líquido que hayan votado los vegetales. Reservar.<br>
-                        <br>
-                        4. Calentar el horno a 220C.<br>
-                        <br>
-                        5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para
-                        cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa.
-                        Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar
-                        con la salsa de tomates y finalmente espolvorear el queso rallado. 6. Hornear por
-                        35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada.
-                        sperar unos minutos antes de desmoldar.
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
     <hr>
     <div>
+        <!-- Section -->
         <div class="container">
-            <h2 class="text-center">RECETAS RELACIONADAS</h2>
-            <div class="abs-center">
+            <div class="grid text-left">
                 <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/img/img_panqueque.png">
-                        <h3 class="text-center">PANQUEQUES CON MANJAR Y CREMA</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                            voluptatum.</p>
+                    <div class="col-md-6">
+                        <div class="g-col-6">
+                            <u>INGREDIENTES</u><br>
+                            <br>
+                            <p class="text-left">Masa<br>
+                                <br>
+                                20 gr de levadura seca instantánea<br>
+                                1 cucharadita de azúcar<br>
+                                500 ml agua tibia<br>
+                                100 ml aceite vegetal<br>
+                                4 cucharadas de aceite de oliva<br>
+                                65 gr harina de maíz fina (chuchoca)<br>
+                                2 cucharaditas de sal<br>
+                                625 gr harina <br>
+                                <br>
+                                Salsa <br>
+                                <br>
+                                5 cucharadas de aceite de oliva<br>
+                                ½ cebolla picada en cubos finos<br>
+                                2 cucharaditas de sal<br>
+                                3 cucharadas de Orégano Gourmet<br>
+                                1 ½ cucharadas de Albahaca Gourmet<br>
+                                2 tarro de tomates en cubos al natural<br>
+                                2 cucharaditas de azúcar<br>
+                                <br>
+                                Relleno<br>
+                                <br>
+                                ½ cebolla, en cubos<br>
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/img_tiramisu.png">
-                        <h3 class="text-center">TIRAMISU</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                            voluptatum.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/img_plateada.png">
-                        <h3 class="text-center">PLATEADA</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                            voluptatum.</p>
+                    <div class="col-md-6">
+                        <div class="g-col-6"><u>PREPARACIÓN</u><br>
+                            <br>
+                            <p class="text-left">
+                                1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande.
+                                Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina.
+                                Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una
+                                masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y
+                                elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se
+                                pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar
+                                reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y
+                                luego dejar leudar por 40 minutos adicionales.<br>
+                                <br>
+                                2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a
+                                fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar
+                                hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar
+                                los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar
+                                hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y
+                                pimienta a gusto. Reservar.<br>
+                                <br>
+                                3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes.
+                                Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya
+                                evaporado todo el líquido que hayan votado los vegetales. Reservar.<br>
+                                <br>
+                                4. Calentar el horno a 220C.<br>
+                                <br>
+                                5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para
+                                cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa.
+                                Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar
+                                con la salsa de tomates y finalmente espolvorear el queso rallado. 6. Hornear por
+                                35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada.
+                                sperar unos minutos antes de desmoldar.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Section -->
-
-    <div>
-        <div class="container-fluid">
-            <div class="contenedor_newletter">
-                <style>
-                    .contenedor_newletter {
-                        background-color: #dc3545;
-                        color: aliceblue;
-                        padding: 50px;
-                    }
-                </style>
-                <h1 class="display-6 text-center">SUSCRIBETE EN NUESTRO NEWSLETTER</h1>
-                <h2 class="text-center">y obtén las mejores recetas que tenemos en <span
-                        class="Logotexto">Ricomida</span></h2>
+        <!-- Section -->
+        <!-- Section -->
+        <hr>
+        <div>
+            <div class="container">
+                <h2 class="text-center">RECETAS RELACIONADAS</h2>
+                <div class="abs-center">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/img/img_panqueque.png">
+                            <h3 class="text-center">PANQUEQUES CON MANJAR Y CREMA</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam,
+                                voluptatum.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="assets/img/img_tiramisu.png">
+                            <h3 class="text-center">TIRAMISU</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam,
+                                voluptatum.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="assets/img/img_plateada.png">
+                            <h3 class="text-center">PLATEADA</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam,
+                                voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!-- footer -->
-    <footer>
-        <div class=container>
-            <p><span class="Logotexto">Ricomida</span></p>
+        <!-- Section -->
+        <!-- Newletter -->
+        <div>
+            <div class="container-fluid">
+                <div class="contenedor_newletter">
+                    <style>
+                        .contenedor_newletter {
+                            background-color: #dc3545;
+                            margin: 0px;
+                            color: aliceblue;
+                            padding: 50px;
+                        }
+                    </style>
+                    <h1 class="display-6 text-center">SUSCRIBETE EN NUESTRO NEWSLETTER</h1>
+                    <h2 class="text-center">y obtén las mejores recetas que tenemos en <span
+                            class="Logotexto">Ricomida</span></h2>
+                </div>
+            </div>
         </div>
-    </footer>
-
-    <!-- JavaScripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
+        <!-- Newletter -->
+        <!-- footer -->
+        <footer>
+            <div class=container>
+                <p><span class="Logotexto">Ricomida</span></p>
+            </div>
+        </footer>
+        <!-- footer -->
+        <!-- JavaScripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script>
+            var items = document.querySelectorAll('.carousel .carousel-item');
+            items.forEach((e) => {
+                const slide = 4;
+                let next = e.nextElementSibling;
+                for (var i = 0; i < slide; i++) {
+                    if (!next) {
+                        next = items[0];
+                    }
+                    let cloneChild = next.cloneNode(true);
+                    e.appendChild(cloneChild.children[0]);
+                    next = next.nextElementSibling;
+                }
+            })
+        </script>
+        <!-- JavaScripts -->
 </body>
-
 </html>

@@ -13,14 +13,16 @@
 }
 
 .abs-center {
-  display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .form {
   width: 450px;
+}
+
+.carousel-inner {
+  margin-left: 10px
 }
 
 img {
@@ -29,14 +31,14 @@ img {
 
 footer {
   background-color: #373a3c;
+  height: 60px;
   color: #ffffff;
-  padding: px 0;
   text-align: center;
 }
 
 p {
-    font-family: 'Cabin', sans-serif;
-    font-size: 12px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 12px;
   margin: 0;
 }
 
@@ -68,4 +70,38 @@ h3 {
   font-size: 30px;
   margin: 0;
   color: #ffffff;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media(min-width: 768px){
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next {
+    transfrom: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transfrom: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+@media(max-width: 767px){
+  .carousel-inner .carousel-item>div{
+    display: none;
+  }
+  .carousel-inner .carousel-item>div:first-child{
+    display: block;
+  }
+}
+
+.carousel {
+  width: 70%;
 }
